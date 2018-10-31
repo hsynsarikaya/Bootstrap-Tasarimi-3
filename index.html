@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <title>Spotify!</title>
+  <style type="text/css">
+  body{
+    font-family: 'Open Sans', sans-serif !important;
+    margin-top: -72px;
+  }
+  .bg-yellow{
+    background-color: #f7c04e !important;
+  }
+  .gradient{
+    background: linear-gradient(#ed6670,#f2ad4e);
+  }
+  .py-6{
+    padding: 150px 0px;
+  }
+  .pt-6{
+    padding-top: 200px;
+  }
+  .bg-black{
+    background-color: black;
+  }
+  .green-color{
+    color: #1db954 !important;
+  }
+  .bg-soft-black{
+    background-color: #00000099;
+  }
+  .btn-success{
+    background-color: #1db954 !important;
+    border-radius: 50px;
+  }
+  .btn-outline-secondary{
+    border-radius: 50px;
+  }
+  .shadow{
+    box-shadow: 0px 2px 5px #333;
+  }
+  @media (max-width: 992px){
+    .display-3{
+      font-size: 35px !important;
+
+    }
+  }
+</style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-soft-black navbar-expand-lg text-white sticky-top">
+    <div class="container py-2">
+      <a href="#" class="navbar-brand"><i class="fab fa-spotify fa-1x"></i>Spotify</a>
+
+      <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbar-spotify" aria-controls="navbar-spotify">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-spotify">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link text-white">Premium</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link text-white">Yardım</a>
+          </li>
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link text-white">İndir</a>
+          </li>
+          
+          <li class="navbar-item px-2">
+            <a href="#" class="nav-link text-white">Kayıt Ol</a>
+          </li>
+          <li class="navbar-item pl-2">
+            <a href="#" class="nav-link text-white">Oturum Aç</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="gradient pt-6">
+    <div class="container">
+      <div id="spotify-slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner text-center" style="height: 300px">
+          <div class="carousel-item active">
+            <h1 class="display-3 text-white">Herkes için müzik.</h1>
+            <a href="#" class="btn btn-success py-2 px-5"><small>Spotify'ı ücretsiz olarak al</small></a>
+            <a href="#" class="btn btn-outline-secondary text-white py-2 px-5"><small>Spotify premium'a geç</small></a>
+          </div>
+          <div class="carousel-item">
+            <h1 class="display-3 text-white">Tüm ailen için Premium<br> sadece 20.99 TL.</h1>
+            <a href="#" class="btn btn-success py-2 px-5"><small>Daha Fazla Bilgi</small></a>
+          </div>
+          <div class="carousel-item">
+            <h1 class="display-3 text-white">Öğrenciler %50<br> indirim alır.</h1>
+            <a href="#" class="btn btn-success py-2 px-5"><small>Daha Fazla Bilgi</small></a>
+          </div>
+          <div class="carousel-item">
+            <h1 class="display-3 text-white">Spotify Platstation ve XBox<br> One'da çal.</h1>
+            <a href="#" class="btn btn-success py-2 px-5"><small>Daha Fazla Bilgi</small></a>
+          </div>
+        </div>
+        <a href="#spotify-slider" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#spotify-slider" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 aling-item-center">
+          <h1 class="mb-5">Spotify'da Neler Var</h1>
+          <h4 class="mb-3">Müzik</h4>
+          <p class="mb-3">Spotify'da milyonlarca şarkı var. En sevdiklerini dinle, yeni parçaları keşfet, mükemmel koleksiyon oluştur.</p>
+          <h4 class="mb-3">Çalma Listeleri</h4>
+          <p class="mb-3">Müzik tutkunları ve uzmanlar tarafından hazırlanmış, ruh haline uyacak hazır çalma listelerini bulacaksın.</p>
+          <h4 class="mb-3">Yeni Çıkanlar</h4>
+          <p class="mb-3">Bu haftayeni çıkan single ve albümleri dinle, ilk 50'de neler olduğunu keşfet.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="row no-gutters">
+            <div class="col-6 col-md-12 col-lg-6">
+              <img src="1.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-12 col-lg-6">
+              <img src="1.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-12 col-lg-6">
+              <img src="3.jpg" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-12 col-lg-6 d-md-none d-lg-block">
+              <img src="4.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gradient py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 offset-md-1  d-none d-md-block text-white">
+          <h6 class="text-center">Senin için yapıldı.</h6>
+          <div class="row">
+            <div class="col-sm-6 text-center">
+              <img src="1.jpg" class="img-fluid">
+              <small class=" text-white">Sana özel günün derlemesi.</small>
+            </div>
+            <div class="col-sm-6 text-center">
+              <img src="1.jpg" class="img-fluid">
+              <small class=" text-white">Yeni çıkanlar radarı.</small>
+            </div>
+            <ul class="list-unstyled text-white m-3" style="width: 100%;">
+              <li class="py-1">
+                <i class="fas fa-chart-line"></i>
+                Listeler
+                <i class="fas fa-angle-right float-right"></i>
+              </li>
+              <li class="py-1">
+                <i class="far fa-calendar"></i>
+                Yeni Çıkanlar
+                <i class="fas fa-angle-right float-right"></i>
+              </li>
+              <li class="py-1">
+                <i class="fas fa-play"></i>
+                Videolar
+                <i class="fas fa-angle-right float-right"></i>
+              </li>
+              <li class="py-1">
+                <i class="fas fa-podcast"></i>
+                Podcast'ler
+                <i class="fas fa-angle-right float-right"></i>
+              </li>
+              <li class="py-1">
+                <i class="fab fa-wpexplorer"></i>
+                Keşfet
+                <i class="fas fa-angle-right float-right"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 offset-md-2 text-white">
+          <h1 class="mb-5">Kolaydır.</h1>
+          <h4 class="mb-3">Ara</h4>
+          <p class="mb-3">Ne dinlemek istediğni biliyormusun? Sadece ara ve çal'a dokun.</p>
+          <h4 class="mb-3">Gözat</h4>
+          <p class="mb-3">En yeni listeleri, yeni çıkanları ve harika listelerini hemen keşfet.</p>
+          <h4 class="mb-3">Keşfet</h4>
+          <p class="mb-3">Kişisel çalma listenle her Pazartesi yeni müzklerin tadını çıkart. Ya da yaslan ve Radyo dinle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <h1 class="text-center float-lg-left">Bir hesap. Her yerde dinle.</h1>
+          <ul class="list-inline mt-3 text-center float-lg-left d-none d-md-block">
+            <li class="list-inline-item">Mobil</li>
+            <li class="list-inline-item">Bilgisayar</li>
+            <li class="list-inline-item">Tablet</li>
+            <li class="list-inline-item">Araba</li>
+          </ul>
+          <ul class="list-inline mt-3 pb-5 text-center float-lg-left d-none d-md-block green-color">
+            <li class="list-inline-item">Hoparlör</li>
+            <li class="list-inline-item">Platstation</li>
+            <li class="list-inline-item">Xbox</li>
+            <li class="list-inline-item">TV</li>
+            <li class="list-inline-item">Web Çalar</li>
+          </ul>
+          <div class="row d-md-none">
+            <div class="col my-5">
+              <ul class="list-unstyled text-center">
+                <li >Mobil</li>
+                <li >Bilgisayar</li>
+                <li >Tablet</li>
+                <li >Araba</li>
+              </ul>
+            </div>
+            <div class="col my-5">
+              <ul class="list-unstyled text-center green-color">
+                <li >Hoparlör</li>
+                <li >Platstation</li>
+                <li >Xbox</li>
+                <li >TV</li>
+                <li >Web Çalar</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-0">
+          <img src="device.svg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gradient py-5">
+    <div class="container">
+      <h1 class="text-center py-4 text-white"><b>Müziğe Ulaş.</b></h1>
+      <div class="row">
+        <div class="col-md-4 offset-md-2">
+          <div class="card mb-4 border-0 shadow">
+            <div class="card-body">
+              <h4>Spotify Free</h4>
+              <h2 style="margin-bottom: 71px;">0,00 TL <small>/ay</small></h2>
+              <hr class="mb-5">
+              <ul class="list-unstyled">
+                <li class="list-unstyled-item">
+                  <i class="fas fa-check"></i>
+                  Karışık çal
+                </li>
+                <li class="text-muted">
+                  <i class="fas fa-check"></i>
+                  Reklamsız
+                </li>
+                <li class="text-muted">
+                  <i class="fas fa-check"></i>
+                  Sınırsız atlama hakkı
+                </li>
+                <li class="text-muted">
+                  <i class="fas fa-check"></i>
+                  Çevrimiçi dinle
+                </li>
+                <li class="text-muted">
+                  <i class="fas fa-check"></i>
+                  İstediğin parçayı çal
+                </li>
+                <li class="text-muted">
+                  <i class="fas fa-check"></i>
+                  Yüksek kaliteli ses
+                </li>
+              </ul>
+              <hr class="my-4">
+              <a href="#" class="btn btn-success btn-block py-2">Ücretsiz Edin</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 border-0 shadow">
+            <div class="card-body">
+              <h4>Spotify Premium</h4>
+              <h2>13,99 TL <small>/ay</small></h2>
+              <small>30 günlük ücretsiz denemeni başlat*<br>Aile ve Öğrenci tekliflerimiz var.</small>
+              <hr class="mb-5">
+              <ul class="list-unstyled">
+                <li class="list-unstyled-item">
+                  <i class="fas fa-check"></i>
+                  Karışık çal
+                </li>
+                <li >
+                  <i class="fas fa-check"></i>
+                  Reklamsız
+                </li>
+                <li >
+                  <i class="fas fa-check"></i>
+                  Sınırsız atlama hakkı
+                </li>
+                <li >
+                  <i class="fas fa-check"></i>
+                  Çevrimiçi dinle
+                </li>
+                <li >
+                  <i class="fas fa-check"></i>
+                  İstediğin parçayı çal
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Yüksek kaliteli ses
+                </li>
+              </ul>
+              <hr class="my-4">
+              <a href="#" class="btn btn-success btn-block py-2">Premium Edin</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 offset-md-2"><p class="text-center"><small >* Spotify 30 günlük deneme teklifi şart ve koşullar geçerlidir. Premium veya Unlimited hizmete üye olan ve denemeden<br> yararlanan kullanıcılar bu tekliften yararlanabilir.</small></p></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="bg-black py-5">
+    <div class="container text-white">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <h3><i class="fab fa-spotify fa-1x"></i>Spotify</h3>
+        </div>
+        <div class="col-6 col-md-2">
+          <ul class="list-unstyled">
+            <li class="text-muted mb-3"><small><b>ŞİRKET</b></small></li>
+            <li><a href="#" class="text-white"><small>Hakkında</small></a></li>
+            <li><a href="#" class="text-white"><small>İşler</small></a></li>
+            <li><a href="#" class="text-white"><small>Basın</small></a></li>
+            <li><a href="#" class="text-white"><small>Haberler</small></a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <ul class="list-unstyled">
+            <li class="text-muted mb-3"><small><b>TOPLULUKLAR</b></small></li>
+            <li><a href="#" class="text-white"><small>Sanatçılar İçin</small></a></li>
+            <li><a href="#" class="text-white"><small>Geliştiriciler</small></a></li>
+            <li><a href="#" class="text-white"><small>Markalar</small></a></li>
+            <li><a href="#" class="text-white"><small>Yatırımcılar</small></a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <ul class="list-unstyled">
+            <li class="text-muted mb-3"><small><b>YARARLI BAĞLANTILAR</b></small></li>
+            <li><a href="#" class="text-white"><small>Yardım</small></a></li>
+            <li><a href="#" class="text-white"><small>Hediye</small></a></li>
+            <li><a href="#" class="text-white"><small>Web Çalar</small></a></li>
+
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 float-md-right">
+          <i class="fab fa-instagram fa-3x mx-3"></i>
+          <i class="fab fa-twitter fa-3x mx-3"></i>
+          <i class="fab fa-facebook fa-3x mx-3"></i>
+        </div>
+        <div class="clearfix"></div>
+        <ul class="list-inline mt-5 float-left">
+          <li class="list-inline-item"><a href="#" class="text-white"><small>Yasal</small></a></li>
+          <li class="list-inline-item"><a href="#" class="text-white"><small>Gizlilik</small></a></li>
+          <li class="list-inline-item"><a href="#" class="text-white"><small>Cookies</small></a></li>
+          <li class="list-inline-item"><a href="#" class="text-white"><small>Reklamlar Hakkında</small></a></li>
+        </ul>
+        <p class="mt-4 text-right ml-auto mt-5"><small>Türkiye <br>© 2018 Spotify AB</small></p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
